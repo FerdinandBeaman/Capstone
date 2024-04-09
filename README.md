@@ -37,6 +37,7 @@ Needless to say, it did not go well. The market remains undefeated.
 This was to be expected. If the market could be beaten even slightly by a new student in the field... that would throw a lot of things into question. 
 Still there was one image that caught my eye:
 ![img](./Images/Hopeful_image)
+
 For just a little while, the direction and magnitude of the lines are in near lockstep, even if their raw numbers arent. Is this noise, amplified by my own survivorship bias? It's hard to say.
 
 
