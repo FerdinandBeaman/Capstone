@@ -43,10 +43,10 @@ For just a little while, the direction and magnitude of the lines are in near lo
 
 
 ### Recommendations
-Do not day trade. Do things the "right" way, however boring they may be.
+Do not day trade. Do things the "right" way, however boring they may be. Long term, safe investments that you don't intereact with much.
 However, if you can't help but want to look further into it, there are a couple of easy things you can do to maximize your chances...
 
 ### Next Steps
-1) Get more data
-2) Get sentiment data
+1) Get more data. I only have 11 days worth of it, and if you're going to find subtle patters you need a lot more.
+2) Get sentiment data on the companies, perhaps by scraping tweets and other social media
 3) Good luck
