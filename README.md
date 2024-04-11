@@ -20,10 +20,10 @@ For reference, this is what a typical day's movement would look like in StDs:
 ![img](./Images/all7_1day)
 
 ## Methods
-I trained 16 Recurrent Neural Networks (GRU) to take a "step forward" approach through the time series. Steps were taken in either 25, 24, 45, or 60 minute increments. To inflate the iteration process, I also trained with two different learning rates (Adam's default LR of 0.0001 as well as 0.01) and had networks with different numbers of hidden layers. All overnight data and weekend data was purged, partly because you need special permission to trade then. The Standard deviation of the first 36 hours of each stock were used to standardize the columns.
+I trained 16 Recurrent Neural Networks (GRU) to take a "step forward" approach through the time series. Steps were taken in either 25, 24, 45, or 60 minute increments. To inflate the iteration process, I also trained with two different learning rates (Adam's default LR of 0.0001 as well as 0.01) and had networks with 2 different numbers of hidden layers. All overnight data and weekend data was purged, partly because you need special permission to trade then. The Standard deviation of the first 36 hours of each stock were used to standardize the columns.
 
 ## Evaluation of Results
-The final model produced thus rather unpleasant chart:
+The final model (the 25-minute step, Fast Learning Rate, Short network of hidden layers model) produced thus rather unpleasant chart:
 ![img](./Images/all_final_predictions)
 
 My RMSE on validation data across all models tended to be around 3.5, with the best model getting to about 3.2. I suspect that the main difference in model performance was merely the stochastic nature of the refinement of each one. In an earlier version of this project, the most performant models were different, and yet they all existed in this cloud of about 3.5, Also, since this is standardized data, a score this high means even the best price predictions are about 3 standard deviations away from being accurate.
